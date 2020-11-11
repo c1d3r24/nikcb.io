@@ -10,9 +10,26 @@
 .bg2 {
   height: 100vh;
   min-height: 500px;
+  background-image: url('./img/IMG_0683.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bg3 {
+  height: 100vh;
+  min-height: 500px;
   background-image: url('./img/IMG_0499-1.JPG');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+div.jumbotron {
+  background: rgba(255, 255, 255, 0.5);
+}
+div.card {
+  background: rgba(128, 128, 128, .8);
 }
