@@ -10,7 +10,7 @@
 .bg-opacity {
   height: 100vh;
   min-height: 500px;
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),  url('./img/IMG_0508-1.JPG');
+  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),  url('./img/IMG_0508-1.JPG');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -48,8 +48,10 @@ div.card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .1);
   padding-top:0px;
   padding-bottom: 0px;
+  padding-left:20px;
+  padding-right:20px;
   text-align: center;
-  background-color: rgba(241, 241, 241, .1);
+  background-color: rgba(241, 241, 241, .5);
   height: 100%;
 
 }
@@ -58,7 +60,7 @@ div.card {
 .header {
   text-align: center;
   padding: 32px;
-  margin-top:8%;
+  margin-top:10%;
 }
 
 .rowgallery {
