@@ -7,10 +7,10 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-header.bg-opacity {
+.bg-opacity {
   height: 100vh;
   min-height: 500px;
-  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),  url('./img/IMG_0508-1.JPG');
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),  url('./img/IMG_0508-1.JPG');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -45,18 +45,20 @@ div.card {
 }
 
 .banner {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding-top:16px;
-  padding-bottom: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .1);
+  padding-top:0px;
+  padding-bottom: 0px;
   text-align: center;
-  background-color: rgba(241, 241, 241, .8);
+  background-color: rgba(241, 241, 241, .1);
   height: 100%;
+
 }
 
 
 .header {
   text-align: center;
   padding: 32px;
+  margin-top:8%;
 }
 
 .rowgallery {
@@ -65,6 +67,7 @@ div.card {
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
   padding: 0 4px;
+  align-items: center;
 }
 
 /* Create four equal columns that sits next to each other */
